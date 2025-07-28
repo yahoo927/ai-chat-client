@@ -22,6 +22,29 @@
   flex: 1;
 }
 
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .message-list {
-  width:  1000px;
+  flex: 1;
+  min-height: 0;
+  height: calc(100vh - 150px);
+  overflow-y: scroll;
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+  margin: 16px 0;
+  background: white;
+}
+
+.message {
+  margin-bottom: 16px;
+  padding: 8px;
+  border-radius: 4px;
+  word-wrap: break-word;
+  max-width: 100%;
 }
