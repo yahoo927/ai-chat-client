@@ -13,6 +13,16 @@ type MessageListProps = {
 };
 
 const MessageList: React.FC<MessageListProps> = ({ messages }) => {
+  const messagesEndRef = React.useRef<HTMLDivElement>(null);
+
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  React.useEffect(() => {
+    scrollToBottom();
+  }, [messages]);
+
   return (
     <div className="message-list">
       {messages.map((message) => (
@@ -20,6 +30,7 @@ const MessageList: React.FC<MessageListProps> = ({ messages }) => {
           <ReactMarkdown>{message.text}</ReactMarkdown>
         </div>
       ))}
+      <div ref={messagesEndRef} />
     </div>
   );
 };
