@@ -1,10 +1,18 @@
-# Getting Started with Create React App
+# Getting Started with AI Asisstant (Demo)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created with React, TS, AI model APIs (Gimini, Qwen and etc).
+
+Please add .env and populate below keys before run the app:
+REACT_APP_GEMINI_API_KEY=<GEMINI_API_KEY>
+REACT_APP_DASHSCOPE_API_KEY=<QWEN_API_KEY>
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+then
 
 ### `npm start`
 
@@ -41,6 +49,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Google AI Studio](https://aistudio.google.com).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Similarly, you can learn more in[Alibaba Model Studio](https://modelstudio.console.alibabacloud.com/).
