@@ -5,6 +5,7 @@ This project was created with React, TS, AI model APIs (Gimini, Qwen and etc).
 ### Please add .env and populate below keys before run the app:
 
 REACT_APP_GEMINI_API_KEY=<GEMINI_API_KEY>
+
 REACT_APP_DASHSCOPE_API_KEY=<QWEN_API_KEY>
 
 ## Available Scripts
