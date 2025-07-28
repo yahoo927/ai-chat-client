@@ -1,8 +1,9 @@
-# Getting Started with AI Asisstant (Demo)
+# Getting Started with AI Asisstant (AI Chat Client Demo)
 
 This project was created with React, TS, AI model APIs (Gimini, Qwen and etc).
 
-Please add .env and populate below keys before run the app:
+### Please add .env and populate below keys before run the app:
+
 REACT_APP_GEMINI_API_KEY=<GEMINI_API_KEY>
 REACT_APP_DASHSCOPE_API_KEY=<QWEN_API_KEY>
 
@@ -51,4 +52,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 You can learn more in the [Google AI Studio](https://aistudio.google.com).
 
-Similarly, you can learn more in[Alibaba Model Studio](https://modelstudio.console.alibabacloud.com/).
+Similarly, you can learn more in the [Alibaba Model Studio](https://modelstudio.console.alibabacloud.com/).
