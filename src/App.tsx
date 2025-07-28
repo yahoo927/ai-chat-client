@@ -19,7 +19,7 @@ function App() {
         right: '0',
         padding: '10px'
       }}>
-        © 2025 OSeeLight. All rights reserved. - (Franken Fu - 647-503-7066)
+        © 2025 OSeeLight. All rights reserved. - (Franken Fu, 647-503-7066)
       </footer>
     </div>
   );

@@ -48,3 +48,27 @@
   word-wrap: break-word;
   max-width: 100%;
 }
+
+.message.bot {
+  background-color: #f0f0f0;
+}
+
+.message.user {
+  background-color: #818080;/* light blue #e3f2fd; */
+  color: white;
+}
+
+.message pre {
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 8px 0;
+}
+
+.message code {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: monospace;
+}
